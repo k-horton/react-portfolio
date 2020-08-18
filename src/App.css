@@ -1,0 +1,49 @@
+:root {
+  /* CSS HEX */
+  --opal: #a7c5c1;
+  --new-york-pink: #cd8987;
+  --english-violet: #4d2d52;
+  --deep-space-sparkle: #4d6a6d;
+  --saffron: #e1bc29;
+  --off-white: #000000;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: var(--opal);
+  background-image: url("wp_bground.png");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
